@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: Lato;
+}
+
+h1 {
+    font-size: 13vw;
+    color:rgb(22, 22, 22);
+    margin: 0 0 1% 0;
+}
+
+h2 {
+    font-size: 17vw;
+    color:rgb(22, 22, 22);
+    margin: 0;
+}
+
+h5 {
+    font-size: 5vw;
+    color: white;
+    margin: 0;
+}
+
+#title {
+    margin: 0 5% 5% 5%;
+}
+
+
+#page-container {
+    background:black;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    position: sticky;
+    top: 0;
+}
+
+#page-title-row-1 { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-title-row-1:hover {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-shadow:    0 0 10px white,
+                    0 0 20px white,
+                    0 0 40px white,
+                    0 0 80px white,
+                    0 0 120px white,
+                    0 0 160px white;
+}
+
+#page-title-row-2 {
+    display: flex;
+    justify-content: space-between;    
+}
+
+#page-title-row-2:hover {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-shadow:    0 0 10px white,
+                    0 0 20px white,
+                    0 0 40px white,
+                    0 0 80px white,
+                    0 0 120px white,
+                    0 0 160px white;
+}
+
+#page-title-row-3 {
+    justify-content: flex-end;
+}
+
+#page-title-row-3:hover {
+    justify-content: flex-end;
+    color: white;
+    text-shadow:    0 0 10px white,
+                    0 0 20px white,
+                    0 0 40px white,
+                    0 0 80px white,
+                    0 0 120px white,
+                    0 0 160px white;
+}
+
+.title-row {
+    display: flex;
+}
+
+.subtitle-row {
+    display: flex;
+}
