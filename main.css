@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    margin: 0 5% 5% 5%;
+}
+
+.section {
+    height: 100vh;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -7,7 +12,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 h1 {
-    font-size: 13vw;
+    font-size: 20vw;
     color:rgb(22, 22, 22);
     margin: 0 0 1% 0;
 }
@@ -25,29 +30,33 @@ h5 {
 }
 
 #title {
-    margin: 0 5% 5% 5%;
+    border: solid white 1px;
+    margin: 5% 0 5% 0;
+    display: flex;
 }
 
+#title-author {
+    border: solid white 1px;
+    margin: 5% 0 5% 0;
+    display: flex;
+}
 
-#page-container {
-    background:black;
-    position:absolute;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
-    position: sticky;
-    top: 0;
+#description {
+    border: solid white 1px;
+    margin: 5% 0 5% 0;
+    display: flex;
 }
 
 #page-title-row-1 { 
-    display: flex;
     justify-content: space-between;
+    padding-top: 5%;
+    margin: 1%
 }
 
 #page-title-row-1:hover {
-    display: flex;
     justify-content: space-between;
+    padding-top: 5%;
+    margin: 1%;
     color: white;
     text-shadow:    0 0 10px white,
                     0 0 20px white,
@@ -58,13 +67,15 @@ h5 {
 }
 
 #page-title-row-2 {
-    display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    padding-top: 5%; 
+    margin: 1%;
 }
 
 #page-title-row-2:hover {
-    display: flex;
     justify-content: space-between;
+    padding-top: 5%;
+    margin: 1%;
     color: white;
     text-shadow:    0 0 10px white,
                     0 0 20px white,
@@ -75,11 +86,11 @@ h5 {
 }
 
 #page-title-row-3 {
-    justify-content: flex-end;
+    margin: 1%
 }
 
 #page-title-row-3:hover {
-    justify-content: flex-end;
+    margin: 1%;
     color: white;
     text-shadow:    0 0 10px white,
                     0 0 20px white,
