@@ -1,9 +1,13 @@
-const sectionOne = document.getElementById('title');
-const sectionTwo = document.getElementById('title-author');
-const sectionThree = document.getElementById('description');
+const titleDescriptionEl = document.getElementById('title-description');
+const portraitEl = document.getElementById('portrait');
+const projectDescriptionEl = document.getElementById('project-description');
 
-document.onscroll = function scroll() {
-    // sectionOne.scrollIntoView({behavior: "smooth"});
-    sectionTwo.scrollIntoView({behavior: "smooth"});
-    sectionThree.scrollIntoView({behavior: "smooth"});
- }
+titleDescriptionEl.onmouseover = function() {
+    portraitEl.classList.add('slide-left');
+    projectDescriptionEl.classList.add('slide-right-and-show');
+}
+
+titleDescriptionEl.onmouseout = function() {
+    portraitEl.classList.remove('slide-left');
+    projectDescriptionEl.classList.remove('slide-right-and-show');
+}
